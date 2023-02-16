@@ -3,14 +3,76 @@
 
 /* =================== Google Fonts ====================== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,500;1,900&display=swap');
+/* ======================= Variables Css ================== */
+:root {
+  --header-height: 3rem;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,500;1,900&display=swap');
 
-*{
-  margin: 0;
-  padding: 0; 
+  /* ================ Foot Weight ========================== */
+  --font-medium: 500;
+  --font-semi-bold: 500;
+  --font-bold: 500;
+
+  /* ==================== Colors ========================  */
+
+  --dark-color: #141411;
+  --dark-color-light: #8A8A8A;
+  --dark-color-lighten: #F2F2F2;
+  --white-color: #FFF;
+
+  /* ==================Font and typography =============== */
+
+  --body-font: 'Poppins', sans-serif;
+  --big-font-size: 1.25rem;
+  --bigger-font-size: 1.5rem;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+  --smaller-font-size: .813rem;
+
+  /* ============== Margins =============== */
+
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /* =============== z-index =============== */
+  --z-fixed: 100;
+
+
+  /* ================ Rotate Image ============== */
+  --rotate-img: rotate(-25deg);
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 1.5rem;
+    --bigger-font-size: 2rem;
+    --biggest-font-size: 3rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .875rem;
+  }
+}
+
+/* ===================== Base ==================== */
+*, ::before, ::after{
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior:  smooth;
+}
+
+body{
+  margin: var(--header-height) 0 0 0; 
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size); 
+  font-weight: var(--font-medium);
+  color: var(--dark-color);
+  line-height: 1.6;
 }
 
 
@@ -21,9 +83,6 @@ h4,
 h5,
 h6,
 p {
-  font-weight: normal;
-  font-size: 100%;
-  padding: 0;
   margin: 0;
 }
 
@@ -41,8 +100,9 @@ ol {
 }
 
 img {
+  max-width:  100px;
   height: auto;
-  border-style: none;
+  display: block;
 }
 
 a {
@@ -50,187 +110,165 @@ a {
   color: inherit;
 }
 
-nav .nav-inner {
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: calc(1440px - 170px);
-    width: 100%;
-    margin: auto;
-}
-nav .fas {
-  display: none;
-  content: '\f00d';
-  content: '\f0c9';
+/* =============== Class Css ============== */
+
+.section{
+  padding: 5rem 0 2rem;
 }
 
+.section-title{
+  position: relative;
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+  letter-spacing: .1rem;
+}
 
-.nav-inner .links a {
-    margin: 0px 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.25;
-    color: #121212;
-    border-bottom: 1px solid transparent;
-    transition: 1s;
+.section-title::after{
+  content: '';
+  position: absolute;
+  width: 56px;
+  height: .18rem; 
+  top: -1rem; 
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: var(--dark-color);
+}
+
+/* ============== Nav-Shop ========== */
+.nav__shop{
+  justify-content: space-between;
+}
+
+/* =========  Layout ==============*/
+
+.bd-grid{
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%; 
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb2);
+}
+
+.I-header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  z-index: var(--z-fixed);
+  background-color: var(--dark-color-lighten);
 }
 
 
-
-.links{
-    padding-top: 13px;
-}
-
-
-.nav-inner .links a:hover {
-    border-color: #cbc8c8;
-}
-
-.nav-inner .links a:hover::after{
-    width: 100%;
-}
-
-.icons span a {
-    margin: 0 20px;
-    display: inline-block;
-}
-
-.icons{
-    padding-top: 15px;
-}
-
-nav .nav-inner {
-  height: 90px;
+.nav{
+  height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: calc(1440px - 170px);
-  width: 100%;
-  margin: auto;
 }
 
-.header{
-  width: 100%;
-  min-height: 90vh;
-  position: relative;
-  background-size: cover;
+@media screen and  (max-width: 768px){
+  .nav__menu{
+    position: fixed;
+    top: var(--header-height);
+    left: -100%;
+    width: 70%;
+    height: 100vh;
+    padding: 2rem;
+    background-color: var(--white-color);
+    transition: .5s;
+  } 
 }
 
-.slider {
-  width: 100%;
-  height: 90vh;
+.nav__item{
+  margin-bottom: var(--mb-4);
+}
+
+.nav__logo{
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__toggle, .nav__shop{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* ======= show Menu ========*/
+
+.show{
+  left: 0; 
+}
+
+/* ============== Active Link ============= */
+.active {
+  position: relative; 
+}
+
+.active::before{
+  content: '';
+  position: absolute;
+  bottom: -.5rem;
+  left: 45%; 
+  width: 4px; 
+  height: 4px; 
+  background-color: var(--dark-color);
+  border-radius: 50%;
+
+} 
+
+
+/*======= Scroll Header ========= */
+.scroll-header{
+  background-color: var(--white-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+/* Home */
+.home{
+  background-image: var(--dark-color-lighten);
+  overflow: hidden;
+}
+
+.home__container{
+  height: calc(100vh - var(--header-height)); 
+}
+
+.home__sneaker{
   position: relative;
   display: flex;
-  transition: all 0.5s;
-  overflow: hidden;
   justify-content: center;
-}
-.slider .slide {
-  width: 25%;
-  height: 100%;
-  position: relative;
-  text-align: center;
-  transition: 0.5s;
-  justify-content: center;
-  padding-top: 20px;
+  align-self: center;
 }
 
-.slider .slide:nth-child(1) {
-  background: url("images/img_hdr/slide_s1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-.slider .slide:nth-child(2) {
-  background: url("images/img_hdr/slide_s2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-.slider .slide:nth-child(3) {
-  background: url("images/img_hdr/slide_s3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
+.home__shape{
+  width: 200px;
+  height: 210px; 
+  background-image: url(images/banner/pinkback.png); 
+  border-radius: 50%;
+
 }
 
- .slider .slide:hover {
-  width: 60%;
-  cursor: calc();
-}   
-
-
-.banner-nl{
-  padding-top: 400px;
-}
-
-.banner-nl1{
-  width: 100%;
-  margin-top: 25%;
+.home__img{
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top:  -3.3rem;
+  max-width: initial;
+  width: 275px;
+  background-image: url(images/img_hdr/nike-air-force.png);
+  transition: 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
 }
 
-.banner-ctr{
-  margin-top: 20%;
+.home__img:hover{
+  transform: rotate(-15deg) scale(1.5);
 }
 
-.banner-nl1 h1{
-  font-size: 60px;
-  font-weight: 700;
-}
-
-.banner-nl1 p{
-  margin: 10px 0 14px;
-  font-size: 16px;
-}
-
-.hero-btn{
-  display: inline-block;
-  text-decoration: none;
-  border-radius: 50px;
-  background: black;
-  color: #efeaea;
-  padding: 12px 34px;
-  font-size: 13px;
-  position: relative;
-  cursor: pointer;
-  font-weight: 500;
-  margin-top: 1%;
-}
-
-.rect-banner{
-  margin-top: 20px;
-}
-
-.banner-container{
-  margin-top: 10%;
-}
-/* -------------------- Products ------------------ */
-
-.products{
-  width: 80%; 
-  margin: auto; 
-  text-align: left;
-  margin-top: 65%;
-}
-
-.products h1{
-  font-weight: 600;
-}
-
-.products-col{
-  flex-basis: 31%;
-  border-radius: 1px;
-  margin-bottom: 5%;
-  text-align: left;
-}
-
-.products-col{
-  width: 100%;
-  border-radius: 1px;
+.home__new {
+  display: block;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-2);
 }

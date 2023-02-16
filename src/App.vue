@@ -4,8 +4,9 @@
   
     <Header />
     <RouterView />
-    <Featured />
     <Home />
+    <Featured />
+  
    
 
 
@@ -14,8 +15,9 @@
 
 <script setup>
 import Header from './components/Header.vue'; 
-import Featured from './components/Featured.vue';
 import Home from './components/Home.vue';
+import Featured from './components/Featured.vue';
+
 
 
 </script>

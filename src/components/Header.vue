@@ -1,39 +1,30 @@
 <template>
- <section class="header">
+    <header class="I-header" id="header">
+        <nav class="nav ba-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bxs-grid'></i>
+            </div>
+            <a href="#" class="nav__logo"><img src="/images/logo/nike_logo_1.png" /></a>
 
-<div class="container-cnt">
-    <ul class="slider">
-        <li class="slide s1">
-            <div class="nav-inner">
-                <div class="logo">
-                    <a href="#"><img src="images/logo/nike_logo_1.png" alt="nike_logo" /></a>
-                </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#new_&_featured" class="nav__link active">New & Featured</a></li>
+                    <li class="nav__item"><a href="#Men" class="nav__link">Men</a></li>
+                    <li class="nav__item"><a href="#Women" class="nav__link">Women</a></li>
+                    <li class="nav__item"><a href="#Kids" class="nav__link">Kids</a></li>
+                    <li class="nav__item"><a href="#Sale" class="nav__link">Sale</a></li>
+                </ul>
             </div>
-        </li>
-        <li class="slide s2">
-            <div class="nav-inner">
-                <div class="links">
-                    <a href="#">New & Featured</a>
-                    <a href="#">Men</a>
-                    <a href="#">Women</a>
-                    <a href="#">Sale</a>
-                </div>
+            <div class="nav__shop">
+                <i class='bx bx-heart'></i>
+                <i class='bx bx-basket'></i>
             </div>
-        </li>
-        <li class="slide s3">
-            <div class="nav-inner">
-                <div class="icons">
-                    <span class="icon">
-                        <a href="#"><i class="fas fa-heart"></i></a>
-                        <a href="#"><i class="fas fa-shopping-basket"></i></a>
-                    </span>
-                </div>
-            </div>
-        </li>
-    </ul>
-</div>
-</section>
-    
+
+        </nav>
+
+    </header>
+
+
 </template>
 
 <script setup>
