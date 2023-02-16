@@ -6,16 +6,16 @@ import './assets/main.css'
 createApp(App).mount('#app')
 
 //===================== Menu Show ===================
-const showMenu = (toggleId, navId) => {
+const showMenu = (toggleId, navId)=>{
     const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId)
 
     if (toggle && nav) {
-        toggle.addEventListener('click', () => {
+        toggle.addEventListener('click', ()=>{
             nav.classList.toggle('show')
         })
     }
-}
+}   
 
 showMenu('nav-toggle', 'nav-menu')
 
@@ -36,7 +36,7 @@ const sections = document.querySelectorAll('section[id]')
 window.addEventListener('scroll', scrollActive)
 
 function scrollActive() {
-    const scrollY = Window.pageYOffset 
+    const scrollY = window.pageYOffset 
 
     sections.forEach(current=>{ 
 
