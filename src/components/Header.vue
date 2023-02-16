@@ -8,7 +8,7 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#new_&_featured" class="nav__link active">New & Featured</a></li>
+                    <li class="nav__item"><a href="#new_&_featured" class="nav__link">New & Featured</a></li>
                     <li class="nav__item"><a href="#Men" class="nav__link">Men</a></li>
                     <li class="nav__item"><a href="#Women" class="nav__link">Women</a></li>
                     <li class="nav__item"><a href="#Kids" class="nav__link">Kids</a></li>
