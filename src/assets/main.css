@@ -244,16 +244,15 @@ a {
 }
 
 .home__shape{
-  width: 200px;
-  height: 210px; 
+  width: 290px;
+  height: 290px; 
   background-image: url(images/banner/pinkback.png); 
   border-radius: 50%;
-
 }
 
 .home__img{
   position: absolute;
-  top:  -3.3rem;
+  top:  -.45rem;
   max-width: initial;
   width: 275px;
   background-image: url(images/img_hdr/nike-air-force.png);
@@ -263,7 +262,7 @@ a {
 }
 
 .home__img:hover{
-  transform: rotate(15deg) scale(1.5);
+  transform: rotate(40deg) scale(1.5);
 }
 
 .home__new {
@@ -271,4 +270,30 @@ a {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-2);
+}
+
+/* =========== Buttons ============= */
+.button{
+  display: inline-block;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 1.125rem 2rem;
+  font-weight: var(--font-medium);
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.button:hover{
+  transform: translateY(.25rem);
+}
+
+.sneaker__img{
+  background-image: url(images/img_hdr/pngegg.png);
+  transition: 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.sneaker__img:hover{
+  transform: rotate(40deg) scale(1.5);
 }
