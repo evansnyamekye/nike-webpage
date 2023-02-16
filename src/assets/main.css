@@ -1,0 +1,236 @@
+/* THIS IS CROWN CITY LIMITED CODING CHALLENGE CUSTOME CSS */
+/* Author: Nyamekye Evans Kofi - Software Eng. */
+
+/* =================== Google Fonts ====================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,500;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,500;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+dl,
+dd,
+menu,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+img {
+  height: auto;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav .nav-inner {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: calc(1440px - 170px);
+    width: 100%;
+    margin: auto;
+}
+nav .fas {
+  display: none;
+  content: '\f00d';
+  content: '\f0c9';
+}
+
+
+.nav-inner .links a {
+    margin: 0px 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #121212;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+
+
+
+.links{
+    padding-top: 13px;
+}
+
+
+.nav-inner .links a:hover {
+    border-color: #cbc8c8;
+}
+
+.nav-inner .links a:hover::after{
+    width: 100%;
+}
+
+.icons span a {
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.icons{
+    padding-top: 15px;
+}
+
+nav .nav-inner {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(1440px - 170px);
+  width: 100%;
+  margin: auto;
+}
+
+.header{
+  width: 100%;
+  min-height: 90vh;
+  position: relative;
+  background-size: cover;
+}
+
+.slider {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  transition: all 0.5s;
+  overflow: hidden;
+  justify-content: center;
+}
+.slider .slide {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  transition: 0.5s;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.slider .slide:nth-child(1) {
+  background: url("images/img_hdr/slide_s1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slider .slide:nth-child(2) {
+  background: url("images/img_hdr/slide_s2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slider .slide:nth-child(3) {
+  background: url("images/img_hdr/slide_s3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+ .slider .slide:hover {
+  width: 60%;
+  cursor: calc();
+}   
+
+
+.banner-nl{
+  padding-top: 400px;
+}
+
+.banner-nl1{
+  width: 100%;
+  margin-top: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-ctr{
+  margin-top: 20%;
+}
+
+.banner-nl1 h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.banner-nl1 p{
+  margin: 10px 0 14px;
+  font-size: 16px;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  background: black;
+  color: #efeaea;
+  padding: 12px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1%;
+}
+
+.rect-banner{
+  margin-top: 20px;
+}
+
+.banner-container{
+  margin-top: 10%;
+}
+/* -------------------- Products ------------------ */
+
+.products{
+  width: 80%; 
+  margin: auto; 
+  text-align: left;
+  margin-top: 65%;
+}
+
+.products h1{
+  font-weight: 600;
+}
+
+.products-col{
+  flex-basis: 31%;
+  border-radius: 1px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.products-col{
+  width: 100%;
+  border-radius: 1px;
+}
