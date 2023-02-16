@@ -263,7 +263,7 @@ a {
 }
 
 .home__img:hover{
-  transform: rotate(-15deg) scale(1.5);
+  transform: rotate(15deg) scale(1.5);
 }
 
 .home__new {
