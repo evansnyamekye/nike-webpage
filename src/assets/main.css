@@ -216,14 +216,13 @@ a {
   height: 4px; 
   background-color: var(--dark-color);
   border-radius: 50%;
-
 } 
 
 
 /*======= Scroll Header ========= */
 .scroll-header{
   background-color: var(--white-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
 /* Home */
@@ -265,7 +264,7 @@ a {
   transform: rotate(40deg) scale(1.5);
 }
 
-.home__new {
+.home__new{
   display: block;
   font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
