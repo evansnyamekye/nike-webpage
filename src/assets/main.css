@@ -297,3 +297,25 @@ a {
 .sneaker__img:hover{
   transform: rotate(40deg) scale(1.5);
 }
+
+.sneaker__img1{
+  background-image: url(images/img_hdr/pngwing_2.png);
+  transition: 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.sneaker__img1:hover{
+  transform: rotate(40deg) scale(1.5);
+}
+
+.sneaker__img2{
+  background-image: url(images/img_hdr/pngwing_3.png);
+  transition: 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.sneaker__img2:hover{
+  transform: rotate(40deg) scale(1.5);
+}
