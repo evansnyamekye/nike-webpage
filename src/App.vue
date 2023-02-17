@@ -9,6 +9,7 @@
     <Custome />
     <PopularCloth />
     <Call_to_Action />
+    <Footer /> 
 </div>
 </template> 
 
@@ -21,6 +22,7 @@ import Popular from './components/Popular.vue';
 import Custome from './components/Custom.vue';
 import PopularCloth from './components/PopoluarCloth.vue';
 import Call_to_Action from './components/Call_to_Action.vue';
+import Footer from './components/Footer.vue';
 
 </script>
 <style scoped>
