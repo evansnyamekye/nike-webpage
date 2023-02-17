@@ -430,8 +430,9 @@ a {
 /* ================== New Invinci ================= */
 .invinci_section h1{
   text-align: center;
-  font-size: 64px;
+  font-size: 70px;
   margin-top: 20px;
+  font-weight: 800;
 }
 
 .invinci_section p{
@@ -577,7 +578,7 @@ height:100%
 .popular {
   width: 80%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   padding-top: 5%;
 }
 
@@ -618,4 +619,27 @@ height:100%
   .row-pics {
       flex-direction: column;
   }
+}
+
+
+/* ================ Custome =================*/
+.hero-container-nl{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.hero-btn-nl{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  background: black;
+  color: #efeaea;
+  padding: 12px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1%;
+  
 }
