@@ -5,8 +5,6 @@
         <div class="invinci__img">
             <img src="images/banner/Rectangle_1.jpg" alt="">
         </div>
-    
-      
     </section>
 </template>
 

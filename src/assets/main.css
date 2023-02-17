@@ -413,8 +413,31 @@ a {
 
 
 /* ================== New Invinci ================= */
-.invinci__img {
-  justify-content: center;
+.invinci_section h1{
+  text-align: center;
+  font-size: 64px;
+}
+
+.invinci_section p{
+  text-align: center;
+  font-size: 16px;
+}
+
+.invinci__img{
+
+}
+
+@media screen and (min-width: 435px) {
+  .invinci_section h1{
+    text-align: center;
+    font-size: 32px;
+  }
+  .invinci_section p{
+    text-align: center;
+    font-size: 14px;
+  }
+  
+
 }
 
 /* ================= Media Queries ================= */
