@@ -332,7 +332,29 @@ a {
   flex-direction: column;  
   align-items: center;
   padding: 2rem;
-  background-color: var(#7dc3f9);
+  background-color: #7dc3f9;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.sneaker-nl{
+  position: relative; 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9fa;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.sneaker-nm{
+  position: relative; 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  padding: 2rem;
+  background-color: #f39fdb;
   border-radius: .5rem;
   transition: .3s;
 }
