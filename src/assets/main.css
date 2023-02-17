@@ -397,8 +397,24 @@ a {
 
 /* ================= Media Queries ================= */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 1024px) {
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  .home__container{
+    column-gap: 8rem;
+  }
+
+  .invinci_section{
+    grid-template-columns: repeat(2, 415px);
+  }
+
+
 }
+
+
 
 @media screen and (min-width: 768px) {
   body{
