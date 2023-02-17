@@ -662,3 +662,46 @@ height:100%
   text-align: left;
   padding-top: 5%;
 }
+
+/* ================ Call to Action =============== */
+.cta {
+  margin: 100px auto;
+  width: 100%;
+  background-image: url(images/banner/Rectangle5778.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+
+.cta h1 {
+  color: rgb(233, 235, 235);
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.hero-btn-cta{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  background: rgb(20, 20, 20);
+  color: #f5f5f5;
+  padding: 12px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1%;
+}
+
+@media(max-width: 700px) {
+  .cta h1 {
+      font-size: 24px;
+  }
+}
+
+@media(max-width: 1260px) {
+  .cta h1 {
+      font-size: 24px;
+  }
+}
