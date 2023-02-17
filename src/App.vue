@@ -20,8 +20,6 @@ import Popular from './components/Popular.vue';
 import Custome from './components/Custom.vue';
 import PopularCloth from './components/PopoluarCloth.vue';
 
-
-
 </script>
 <style scoped>
 

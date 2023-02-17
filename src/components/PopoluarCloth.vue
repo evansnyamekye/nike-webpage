@@ -1,5 +1,5 @@
 <template>
-    <section class="popular">
+    <section class="popular-cl">
         <h1>Popular Right Now</h1>
         <div class="row-pics">
             <div class="popular-col">

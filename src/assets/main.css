@@ -118,6 +118,11 @@ img {
   padding: 8px;
 }
 
+.popular-cl{
+  max-width: 100%;
+  padding: 8px;
+}
+
 a {
   text-decoration: none;
   color: var(--dark-color);
@@ -647,4 +652,13 @@ height:100%
   margin-left: 25px;
   margin-right: 25px;
 
+}
+
+/* ==================== Popular Clothing ================== */
+
+.popular-cl{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 5%;
 }
