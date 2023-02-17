@@ -566,3 +566,47 @@ height:100%
 
 
 }
+
+/* ================ Popular ====================  */
+.popular {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.popular-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+
+.popular-col img {
+  width: 100%;
+}
+
+.popular-col p {
+  padding: 0%;
+  text-align: center;
+}
+
+.popular-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media(max-width: 700px) {
+  .row-pics {
+      flex-direction: column;
+  }
+
+}
+
+@media(max-width: 1260px) {
+  .row-pics {
+      flex-direction: column;
+  }
+}
