@@ -116,7 +116,6 @@ img {
 .popular-col img {
   max-width: 100%;
   padding: 8px;
-
 }
 
 a {
@@ -642,4 +641,10 @@ height:100%
   font-weight: 500;
   margin-top: 1%;
   
+}
+
+.hero-btn-nl{
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
