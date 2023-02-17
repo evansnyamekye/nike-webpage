@@ -108,7 +108,7 @@ img {
   display: block;
 }
 
-.invinci__img img{
+.invinci__img img {
   max-width: 100%;
   margin-top: 20px;
 }
@@ -118,7 +118,7 @@ img {
   padding: 8px;
 }
 
-.popular-cl{
+.popular-cl {
   max-width: 100%;
   padding: 8px;
 }
@@ -361,8 +361,8 @@ a {
 
 /* ====================== Featured ========================= */
 
-.section-title{
- margin-top: -10%; 
+.section-title {
+  margin-top: -10%;
 }
 
 .featured__container {
@@ -432,28 +432,28 @@ a {
 
 
 /* ================== New Invinci ================= */
-.invinci_section h1{
+.invinci_section h1 {
   text-align: center;
   font-size: 70px;
   margin-top: 20px;
   font-weight: 800;
 }
 
-.invinci_section p{
+.invinci_section p {
   text-align: center;
   font-size: 16px;
   margin-top: 20px;
 }
 
-.invinci__img{
-display: grid;
-justify-content: center;
-width: 100%;
-height:100%
+.invinci__img {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: 100%
 }
 
 
-.hero-btn{
+.hero-btn {
   display: inline-block;
   text-decoration: none;
   border-radius: 50px;
@@ -468,33 +468,35 @@ height:100%
 }
 
 
-.hero-container{
+.hero-container {
   display: flex;
   justify-content: center;
 }
 
 @media screen and (min-width: 269px) {
-  .invinci_section h1{
+  .invinci_section h1 {
     text-align: center;
     font-size: 25px;
   }
-  .invinci_section p{
+
+  .invinci_section p {
     text-align: center;
     font-size: 12px;
   }
-  
+
 }
 
 @media screen and (min-width: 435px) {
-  .invinci_section h1{
+  .invinci_section h1 {
     text-align: center;
     font-size: 32px;
   }
-  .invinci_section p{
+
+  .invinci_section p {
     text-align: center;
     font-size: 14px;
   }
-  
+
 
 }
 
@@ -586,7 +588,7 @@ height:100%
   padding-top: 5%;
 }
 
-.popular-col{
+.popular-col {
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -614,26 +616,26 @@ height:100%
 
 @media(max-width: 700px) {
   .row-pics {
-      flex-direction: column;
+    flex-direction: column;
   }
 
 }
 
 @media(max-width: 1260px) {
   .row-pics {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
 
 /* ================ Custome =================*/
-.hero-container-nl{
+.hero-container-nl {
   display: flex;
   justify-content: center;
   padding: 5px;
 }
 
-.hero-btn-nl{
+.hero-btn-nl {
   display: inline-block;
   text-decoration: none;
   border-radius: 50px;
@@ -645,10 +647,10 @@ height:100%
   cursor: pointer;
   font-weight: 500;
   margin-top: 1%;
-  
+
 }
 
-.hero-btn-nl{
+.hero-btn-nl {
   margin-left: 25px;
   margin-right: 25px;
 
@@ -656,7 +658,7 @@ height:100%
 
 /* ==================== Popular Clothing ================== */
 
-.popular-cl{
+.popular-cl {
   width: 80%;
   margin: auto;
   text-align: left;
@@ -666,42 +668,62 @@ height:100%
 /* ================ Call to Action =============== */
 .cta {
   margin: 100px auto;
+  height: 50vh;
   width: 100%;
-  background-image: url(images/banner/Rectangle5778.png);
+  background-image: url(images/banner/Rectangle.png);
   background-size: cover;
   background-position: center;
-  text-align: center;
-
+  text-align: left;
 }
 
 .cta h1 {
   color: rgb(233, 235, 235);
   margin-bottom: 40px;
-  padding: 0;
+  font-size: 50px;
 }
 
-.hero-btn-cta{
+.cta p {
+  color: rgb(233, 235, 235);
+  font-size: small;
+}
+
+.cta_left_align{
+  margin-left: 200px;
+  padding-top: 80px;
+}
+
+.hero-btn-cta {
   display: inline-block;
   text-decoration: none;
   border-radius: 50px;
-  background: rgb(20, 20, 20);
-  color: #f5f5f5;
+  background: rgb(246, 244, 244);
+  color: #030303;
   padding: 12px 34px;
   font-size: 13px;
   position: relative;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 800;
   margin-top: 1%;
 }
 
-@media(max-width: 700px) {
+@media screen and (max-width: 445px) {
   .cta h1 {
-      font-size: 24px;
+    font-size: 20px;
+  }
+
+  .cta_left_align{
+    margin-left: 200px;
+    padding-top: 80px;
+  }
+
+  .cta h1 {
+    margin-bottom: 40px;
+    font-size: 10px;
   }
 }
 
 @media(max-width: 1260px) {
   .cta h1 {
-      font-size: 24px;
+    font-size: 24px;
   }
 }
