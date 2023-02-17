@@ -110,6 +110,7 @@ img {
 
 .invinci__img img{
   max-width: 100%;
+  margin-top: 20px;
 }
 
 a {
@@ -420,11 +421,13 @@ a {
 .invinci_section h1{
   text-align: center;
   font-size: 64px;
+  margin-top: 20px;
 }
 
 .invinci_section p{
   text-align: center;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 .invinci__img{
@@ -434,10 +437,17 @@ width: 100%;
 height:100%
 }
 
-.invinci img{
-  width: 275px;
+@media screen and (min-width: 269px) {
+  .invinci_section h1{
+    text-align: center;
+    font-size: 25px;
+  }
+  .invinci_section p{
+    text-align: center;
+    font-size: 12px;
+  }
+  
 }
-
 
 @media screen and (min-width: 435px) {
   .invinci_section h1{
