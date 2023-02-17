@@ -374,3 +374,17 @@ a {
   transform: rotate(-90deg); 
   letter-spacing: .1rem;
 }
+
+.sneaker__name, .sneaker__preci{
+  font-size: var(--h2-font-size); 
+  letter-spacing: .1rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.sneaker__name{
+  margin-bottom: var(--mb-1);
+}
+
+.sneaker__price{
+  margin-bottom: var(--mb-4);
+}
