@@ -1,6 +1,6 @@
 <template>
 
-<section class="polpular">
+<section class="popular">
         <h1>Popular Right Now</h1>
        <div class="row-pics">
             <div class="popular-col">
@@ -18,11 +18,11 @@
                 <h3>Nike Air Max 90 </h3>
                 <p>Men’s Shoes</p>
             </div>
-            <!-- <div class="popular-col">
+             <div class="popular-col">
                 <img src="images/banner/Rectangle 2-3.jpg">
                 <h3>Nike Air Ma</h3>
                 <p>Women’s Shoes</p>
-            </div> -->
+            </div> 
            
 
         </div>

@@ -113,6 +113,12 @@ img {
   margin-top: 20px;
 }
 
+.popular-col img {
+  max-width: 100%;
+  padding: 8px;
+align-items: center;
+}
+
 a {
   text-decoration: none;
   color: var(--dark-color);
@@ -572,7 +578,7 @@ height:100%
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5%;
 }
 
 .popular-col{
@@ -582,10 +588,6 @@ height:100%
   text-align: left;
 }
 
-
-.popular-col img {
-  width: 100%;
-}
 
 .popular-col p {
   padding: 0%;
@@ -597,6 +599,13 @@ height:100%
   margin-bottom: 15px;
   text-align: center;
 }
+
+.row-pics {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 @media(max-width: 700px) {
   .row-pics {
