@@ -36,7 +36,7 @@ const sections = document.querySelectorAll('section[id]')
 window.addEventListener('scroll', scrollActive)
 
 function scrollActive() {
-    const scrollY = window.pageYOffset 
+    const scrollY = window.pageYOffset  
 
     sections.forEach(current=>{ 
 

@@ -192,7 +192,7 @@ a {
 }
 
 .nav__toggle, .nav__shop{
-  font-size: 1.3rem; 
+  font-size: 1.3rem;    
   cursor: pointer;
 }
 
@@ -317,4 +317,22 @@ a {
 
 .sneaker__img2:hover{
   transform: rotate(40deg) scale(1.5);
+}
+
+/* ====================== Featured ========================= */
+
+.featured__container{
+  row-gap: 2rem; 
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.sneaker{
+  position: relative; 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  padding: 2rem;
+  background-color: var(#7dc3f9);
+  border-radius: .5rem;
+  transition: .3s;
 }
