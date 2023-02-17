@@ -116,7 +116,7 @@ img {
 .popular-col img {
   max-width: 100%;
   padding: 8px;
-align-items: center;
+
 }
 
 a {
@@ -591,13 +591,13 @@ height:100%
 
 .popular-col p {
   padding: 0%;
-  text-align: center;
+  text-align: left;
 }
 
 .popular-col h3 {
   margin-top: 16px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .row-pics {
