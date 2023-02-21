@@ -1,5 +1,5 @@
 <template>
-    <header class="I-header" id="header">
+    <!-- <header class="I-header" id="header">
         <nav class="nav ba-grid">
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bxs-grid'></i>
@@ -22,7 +22,7 @@
 
         </nav>
 
-    </header>
+    </header> -->
 
 </template>
 

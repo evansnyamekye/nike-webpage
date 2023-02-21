@@ -4,7 +4,7 @@
     <RouterView />
     <Home />
     <Featured />
-    <Invinci />
+    
     <Popular />
     <Custome />
     <PopularCloth />

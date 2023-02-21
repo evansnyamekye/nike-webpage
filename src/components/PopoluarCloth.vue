@@ -1,17 +1,17 @@
 <template>
     <section class="popular-cl">
-        <h1>Popular Right Now</h1>
+        <h2>Popular Right Now</h2>
         <div class="row-pics">
             <div class="popular-col">
-                <img src="images/banner/Rectangle 3.jpg">
+                <img src="images/banner/Rectangle 3.jpg" />
                 <p>Men’s Nike Fleece</p>
             </div>
             <div class="popular-col">
-                <img src="images/banner/Rectangle 4.jpg">
+                <img src="images/banner/Rectangle 4.jpg" />
                 <p>Women’s Nike Fleece</p>
             </div>
             <div class="popular-col">
-                <img src="images/banner/Rectangle 5.jpg">
+                <img src="images/banner/Rectangle 5.jpg" />
                 <p>Kid’s Nike Fleece</p>
             </div>
         </div>
