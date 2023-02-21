@@ -1,18 +1,17 @@
 <template>
-    <footer class="footer section">
-        <div class="footer__container bd-grid">
-            <div class="footer__box">
-                <img src="images/footer/travel.png">
-                <p>We believe brand interaction is key in<br>
-                    commu nication. Real innovations and
-                    a positive.</p>
-                <div>
-                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
-                </div>
-            </div>
-            <div class="footer__box">
+     <section class="footer grid">
+                <div class="footer-logo frid">
+                    <img src="images/footer/travel.png" alt="" />
+                    <p>We believe brand interaction is key in<br />
+                        communication. Real innovations and
+                        a positive.</p>
+                    <div class="social-media">
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                 </div>
+                 <div class="footer__box grid">
                 <h3 class="footer__tilte">About</h3>
                 <ul>
                     <li><a href="#" class="footer__link"></a>Features</li>
@@ -21,7 +20,7 @@
                     <li><a href="#" class="footer__link"></a>Pricing</li>
                 </ul>
             </div>
-            <div class="footer__box">
+            <div class="footer__box grid">
                 <h3 class="footer__tilte">Company</h3>
                 <ul>
                     <li><a href="#" class="footer__link"></a>Core values</li>
@@ -30,14 +29,17 @@
                     <li><a href="#" class="footer__link"></a>Contact</li>
                 </ul>
             </div>
+
             <div class="footer__box">
                 <h3 class="footer__tilte">Get in touch</h3>
+                <div class="input-field">
+                    <input type="email" placeholder="Your email here...">
+                </div>
                 <div class="button-ft">
                     <a href="#" class="hero-btn-ft">Get Access</a>
                 </div>
             </div>
-        </div>
-    </footer>
+            </section>
 
     <div class="wrapper row">
         <div id="copyright" class="hoc clear">
