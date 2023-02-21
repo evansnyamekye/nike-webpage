@@ -33,6 +33,7 @@ html {
 }
 
 
+
 header {
   z-index: 100000;
   transition: 0.6s;
@@ -657,7 +658,7 @@ nav .fas {
   -moz-float-edge: 1.4rem;
 }
 
-.footer__box a{
+.footer__menu a{
   text-decoration: none;
 }
 
