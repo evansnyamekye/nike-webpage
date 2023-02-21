@@ -650,7 +650,15 @@ nav .fas {
 
 .footer-logo img{
   width: 115px;
-  
+}
+
+.footer-logo .social-media{
+  font-size: 1.8rem;
+  -moz-float-edge: 1.4rem;
+}
+
+.footer__box a{
+  text-decoration: none;
 }
 
 .hero-btn-ft{
