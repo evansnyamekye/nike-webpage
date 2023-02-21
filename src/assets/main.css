@@ -632,7 +632,22 @@ nav .fas {
   grid-template-areas: 'one' 'two' 'three''four';
 }
 
+.footer:nth-child(1){
+  grid-area: one;
+}
+.footer:nth-child(2){
+  grid-area: one;
+}
+.footer:nth-child(3){
+  grid-area: one;
+}
+.footer:nth-child(4){
+  grid-area: one;
+}
 
+.footer-logo{
+  --grid-gap: 2rem;
+}
 
 .hero-btn-ft{
   display: inline-block;
