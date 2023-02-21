@@ -30,7 +30,7 @@
             </ul>
         </div>
 
-        <div class="contact">
+        <div class="footer__box">
             <h3 class="footer__tilte">Get in touch</h3>
             <div class="input-field">
                 <input type="email" placeholder="Your email here...">
