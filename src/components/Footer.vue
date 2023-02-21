@@ -19,7 +19,6 @@
                 <li><a href="#" class="footer__link">News</a></li>
                 <li><a href="#" class="footer__link">Pricing</a></li>
             </ul>
-
         </div>
         <div class="footer__menu">
             <h3 class="footer__tilte">Company</h3>
@@ -29,10 +28,9 @@
                 <li><a href="#" class="footer__link">Blog</a></li>
                 <li><a href="#" class="footer__link">Contact</a></li>
             </ul>
-
         </div>
 
-        <div class="footer__menu">
+        <div class="contact">
             <h3 class="footer__tilte">Get in touch</h3>
             <div class="input-field">
                 <input type="email" placeholder="Your email here...">

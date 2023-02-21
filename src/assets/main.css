@@ -626,7 +626,7 @@ nav .fas {
 /* ================ Footer ================= */
 .footer{
   margin-block: 5rem;
-  width: 85vh;
+  width: 85vw;
   margin-inline: auto;
   grid-template-columns: auto;
   display: inline-flex;
@@ -656,6 +656,11 @@ nav .fas {
 .footer-logo .social-media{
   font-size: 1.8rem;
   -moz-float-edge: 1.4rem;
+}
+
+.footer__menu > ul{
+  list-style: none;
+  text-decoration: none;
 }
 
 .footer__menu a{
